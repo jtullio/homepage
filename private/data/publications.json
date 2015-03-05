@@ -1,0 +1,126 @@
+{
+  "publications" : [
+  {  
+	"title" : "Getting to Know Social Television: One Team's Discoveries from Library to Living Room",
+	"year" : "2009",
+	"venue" : "Social Interactive Television: Immersive Shared Experiences and Perspectives",
+	"publisher" : "IGI Global",
+	"authors" : [
+	{"firstName" : "Gunnar", "lastName" : "Harboe"},
+	{"firstName" : "Elaine", "lastName" : "Huang"},
+	{"firstName" : "Noel", "lastName" : "Massey"},
+	{"firstName" : "Crysta", "lastName" : "Metcalf"},
+	{"firstName" : "Guy", "lastName" : "Romano"},
+	{"firstName" : "Joe", "lastName" : "Tullio"}
+	],
+	"editors" : [
+	{"firstName" : "P", "lastName" : "Cesar"},
+	{"firstName" : "D", "lastName" : "Geerts"},
+	{"firstName" : "K", "lastName" : "Chorianopolous"}
+	]
+  },
+  {
+	"title" : "Examining Presence and Lightweight Messaging in a Social Television Experience",
+	"year" : "2008",
+	"venue" : "ACM Transactions on Multimedia Computing, Communications, and Applications",
+	"edition" : "4(4)",
+	"publisher" : "ACM Press",
+	"authors" : [
+	{"firstName" : "Gunnar", "lastName" : "Harboe"},
+	{"firstName" : "Crysta", "lastName" : "Metcalf"},
+	{"firstName" : "Joe", "lastName" : "Tullio"},
+	{"firstName" : "Noel", "lastName" : "Massey"},
+	{"firstName" : "Guy", "lastName" : "Romano"},
+	{"firstName" : "Elaine", "lastName" : "Huang"},
+	{"firstName" : "Frank", "lastName" : "Bentley"}
+	]
+  },
+  {
+	"title" : "Experience, Adjustment, and Engagement: The Role of Video in Law Enforcement",
+	"year" : "2010",
+	"venue" : "Proceedings of the ACM Conference on Human Factors in Computing Systems (CHI 2010)",
+	"publisher" : "ACM Press",
+	"authors" : [
+	{"firstName" : "Joe", "lastName" : "Tullio"},
+	{"firstName" : "Elaine", "lastName" : "Huang"},
+	{"firstName" : "David", "lastName" : "Wheatley"},
+	{"firstName" : "Harry", "lastName" : "Zhang"},
+	{"firstName" : "Claudia", "lastName" : "Guerrero"},
+	{"firstName" : "Amruta", "lastName" : "Tamdoo"}
+	]
+  },
+  {
+	"title" : "Investigating the Potential of In-Home Devices for Improving Medication Adherence",
+	"year" : "2009",
+	"venue" : "Proceedings of the 3rd International Conference on Pervasive Computing Technologies for Healthcare",
+	"authors" : [
+	{"firstName" : "Young", "lastName" : "Lee"},
+	{"firstName" : "Joe", "lastName" : "Tullio"},
+	{"firstName" : "Nithya", "lastName" : "Narasimhan"},
+	{"firstName" : "Pallavi", "lastName" : "Kaushik"},
+	{"firstName" : "Jonathan", "lastName" : "Englesma"},
+	{"firstName" : "Santosh", "lastName" : "Basapur"}
+	]
+  },
+  {
+	"title" : "Social Television Comes Home: A Field Study of Communication Choices and Practices in TV-Based Text and Voice Chat",
+	"year" : "2009",
+	"venue" : "Proceedings of the ACM Conference on Human Factors in Computing Systems (CHI 2009)",
+	"publisher" : "ACM Press",
+	"authors" : [
+	{"firstName" : "Elaine", "lastName" : "Huang"},
+	{"firstName" : "Gunnar", "lastName" : "Harboe"},
+	{"firstName" : "Joe", "lastName" : "Tullio"},
+	{"firstName" : "Ashley", "lastName" : "Novak"},
+	{"firstName" : "Noel", "lastName" : "Massey"},
+	{"firstName" : "Crysta", "lastName" : "Metcalf"},
+	{"firstName" : "Guy", "lastName" : "Romano"}
+	]
+  },
+  {
+	"title" : "Ambient Social TV: Drawing People into a Shared Experience",
+	"year" : "2008",
+	"venue" : "Proceedings of the ACM Conference on Human Factors in Computing Systems (CHI 2008)",
+	"publisher" : "ACM Press",
+	"authors" : [
+	{"firstName" : "Gunnar", "lastName" : "Harboe"},
+	{"firstName" : "Crysta", "lastName" : "Metcalf"},
+	{"firstName" : "Frank", "lastName" : "Bentley"},
+	{"firstName" : "Joe", "lastName" : "Tullio"},
+	{"firstName" : "Noel", "lastName" : "Massey"},
+	{"firstName" : "Guy", "lastName" : "Romano"}
+	]
+  },
+  {
+	"title" : "Use and Implications of a Shared, Forecasting Calendar",
+	"year" : "2007",
+	"venue" : "Proceedings of the IFIP International Conference on Human-Computer Interaction (Interact 2007)",
+	"authors" : [
+	{"firstName" : "Joe", "lastName" : "Tullio"},
+	{"firstName" : "Elizabeth", "lastName" : "Mynatt"}
+	]
+  },
+  {
+	"title" : "How it Works: A Field Study of Non-Technical Users Interacting with an Intelligent System",
+	"year" : "2007",
+	"venue" : "Proceedings of the ACM Conference on Human Factors in Computing Systems (CHI 2007)",
+	"publisher" : "ACM Press",
+	"authors" : [
+	{"firstName" : "Joe", "lastName" : "Tullio"},
+	{"firstName" : "Anind", "lastName" : "Dey"},
+	{"firstName" : "Jason", "lastName" : "Chalecki"},
+	{"firstName" : "James", "lastName" : "Fogarty"}
+	]
+  },
+  {
+	"title" : "Augmenting Shared Personal Calendars",
+	"year" : "2002",
+	"venue" : "Proceedings of the ACM Symposium on User Interface Software and Technology (UIST 2002)",
+	"authors" : [
+	{"firstName" : "Joe", "lastName" : "Tullio"},
+	{"firstName" : "Jeremy", "lastName" : "Goecks"},
+	{"firstName" : "Elizabeth", "lastName" : "Mynatt"},
+	{"firstName" : "David", "lastName" : "Nguyen"}
+	]
+  }
+]}

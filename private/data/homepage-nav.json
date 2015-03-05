@@ -1,0 +1,85 @@
+'use strict';
+
+var app = angular.module('kexpadd', ['kexpadd.directives', 'kexpadd.services']);
+
+app.config(['$routeProvider', function($routeProvider) {
+	$routeProvider.when('/', {
+		controller: 'ListCtrl',
+		resolve: {
+			tracks: function(MultiTrackLoader) {
+				return MultiTrackLoader();
+			}
+		},
+		templateUrl:'/views/list.html'
+	}).when('/edit/:trackId', {
+		controller: 'EditCtrl',
+		resolve: {
+			track: function(TrackLoader) {
+				return TrackLoader();
+			}
+		},
+		templateUrl:'/views/trackForm.html'
+	}).when('view/trackId', {
+		controller: 'ViewCtrl',
+		resolve: {
+			track: function(TrackLoader) {
+				return TrackLoader();
+			}
+		},
+		templateUrl:'/views/viewTrack.html'
+	}).when('/new', {
+		controller: 'NewCtrl',
+		templateUrl:'/views/trackForm.html'
+	}).otherwise({redirectTo:'/'});
+}]);
+
+app.controller('ListCtrl', ['$scope', 'tracks',
+	function($scope, trackes) {
+		$scope.tracks = tracks;
+	}
+]);
+
+app.controller('ViewCtrl', ['$scope', '$location', 'track',
+	function($scope, $location, track) {
+		$scope.track = track;
+
+		track.edit = function() {
+			$location.path('/edit/' + track.id);
+		};
+	}
+]);
+
+app.controller('EditCtrl', ['$scope', '$location', 'track',
+	function($scope, $location, track) {
+		$scope.track = track;
+
+		$scope.save = function() {
+			$scope.track.$save(function(track) {
+				$location.path('/view/' + track.id);
+			});
+		};
+
+		$scope.remove = function() {
+			delete $scope.track;
+			$location.path('/');
+		};
+	}	
+]);
+
+app.controller('NewCtrl', ['$scope', '$location', 'Track',
+	function($scope, $location, track) {
+		$scope.track = new Track({});
+
+		$scope.save = function() {
+			$scope.track.$save(function(track) {
+				$location.path('/view/' + track.id);
+			});
+		};
+	}
+]);
+
+
+
+
+
+

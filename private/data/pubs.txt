@@ -1,0 +1,33 @@
+
+Tullio, J., Huang, E., Wheatley, D., Zhang, H., Guerrero, C., and Tamdoo, A. (2010) Experience, Adjustment, and Engagement: The Role of Video in Law Enforcement,  Proceedings of the ACM Conference on Human Factors in Computing Systems (CHI 2010).
+[C.11]
+Lee, Y.S., Tullio, J., Narasimhan, N., Kaushik, P., Englesma, J.R., and Basapur, S. (2009) Investigating the Potential of In-Home Devices for Improving Medication Adherence. Proceedings of the 3rd International Conference on Pervasive Computing Technologies for Healthcare 2009.
+[C.10]
+Huang, E., Harboe, G., Tullio, J., Novak, A., Massey, N., Metcalf, C., and Romano, G. (2009) Social Television Comes Home: A Field Study of Communication Choices and Practices in TV-Based Text and Voice Chat, Proceedings of the ACM Conference on Human Factors in Computing Systems (CHI 2009).
+[C.9]
+Harboe, G., Metcalf, C., Bentley, F., Tullio, J., Massey, N., and Romano, G. (2008) Ambient Social TV: Drawing People into a Shared Experience. Proceedings of the ACM Conference on Human Factors in Computing Systems (CHI 2008).
+[C.8]
+Tullio, J. and Mynatt, E. (2007) Use and Implications of a Shared, Forecasting Calendar. Proceedings of the IFIP International Conference on Human-Computer Interaction (Interact 2007).
+[C.7]
+Tullio, J., Dey, A.K., Chalecki, J., and Fogarty, J. (2007) How it Works: A Field Study of Non-Technical Users Interacting with an Intelligent System. Proceedings of the ACM Conference on Human Factors in Computing Systems (CHI 2007).
+[C.6]
+Tullio, J., Goecks, J., Mynatt, E., Nguyen, D.  (2002) Augmenting Shared Personal Calendars.  Proceedings of the ACM Symposium on User Interface Software and Technology (UIST 2002).
+[C.5]
+MacIntyre, B., Mynatt, E., Voida, S., Hansen, K. M., Tullio, J., Corso, G. (2001) Support For Multitasking and Background Awareness Using Interactive Peripheral Displays. Proceedings of the ACM Symposium on User Interface Software and Technology (UIST 2001).
+[C.4]
+Mynatt, E. and Tullio, J. (2001) Inferring Calendar Event Attendance.  Proceedings of the ACM Conference on Intelligent User Interfaces (IUI 2001).
+[C.3]
+Downs, J.H., Graves, B., Shi, M., Tullio, J., Aylor, B. F., Gates, R. G. and Kassell, N. (1998) IRNS: A System for Telerobotic Surgical Mentoring. IEEE Symposium on Computer-Based Medical Systems, pp. 182-186.
+[C.2]
+Hinckley, K., Tullio, J., Pausch, R., Proffitt, D., and Kassell, N. (1997) Usability Analysis of 3D Rotation Techniques, Proceedings of the ACM Symposium on User Interface Software and Technology (UIST 1997).
+[C.1]
+Graves, S., Tullio, J., Shi, M., and Downs, J.H. (1997) An Integrated Remote Neurosurgical System, First International Joint Conference CVRMed-MRCAS '97.
+ 
+Conference Short Papers, Posters, and Doctoral Consortia
+[c.3]
+Tullio, J. and Harboe, G. (2008) Investigating the Use of Voice and Text Chat in a Social Television System, European Interactive TV Conference (EuroITV 2008).
+[c.2]
+Tullio, J.  (2003) Augmenting Groupware with Intelligence. ACM UIST 2003 Conference Companion (Doctoral Consortium).
+[c.1]
+Huang, E., Tullio, J., Costa, T., McCarthy, J. (2002) Promoting Awareness of Work Activities Through Peripheral Displays. CHI 2002 Extended Abstracts.
+

@@ -1,0 +1,91 @@
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+	
+	<title>Homepage</title>
+
+	<!-- Custom styles -->
+    <link href="topnav.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+
+<template name='herotitle'>
+<div class='jumbotron'>
+        <h2 class='text-muted'>Joe Tullio</h2>
+        <p class='lead'>UX Manager at Google and sometime soccer player.</p>
+    </div>
+</template>
+
+<template name='navbar'>
+    <nav class='navbar navbar-fixed-top nav-justified'>
+      <ul class='nav nav-default'>
+      	{{> navitems}}
+      </ul>
+    </nav>
+
+</template>
+
+<template name='navitems'>
+    <li class="{{activeIfTemplateIs 'mainpage'}}">
+    	<a href="{{ pathFor 'mainpage'}}">Projects</a></li>
+    <li class="{{activeIfTemplateIs 'pubspage'}}">
+    	<a href="{{ pathFor 'pubspage'}}">Publications</a></li>
+    <li class="{{activeIfTemplateIs 'cvpage'}}">
+    	<a href="{{ pathFor 'cvpage'}}">CV</a></li>
+    <li class="{{activeIfTemplateIs 'aboutpage'}}">
+    	<a href="{{ pathFor 'aboutpage'}}">About</a></li>
+</template>
+
+<template name='layout'>
+	<div class="container">
+	<div class="masthead">
+		{{> navbar}}
+	</div>
+      	{{> herotitle}}	
+    
+    <div>
+		{{> yield}}
+	</div>
+</div> <!-- /container -->
+
+</template>
+
+<template name='mainpage'>
+  <ul>
+  	{{#each getPubs}}
+  <li class="publication lead {{selectedClass}}">{{title}} : {{year}}</li>
+  {{/each}}
+  </ul>
+
+  <input type="button" value="Show PDF" class="showButton" />
+
+  <p> Selected pub:
+  {{#if showSelectedPub}}
+  	{{showSelectedPub.title}}
+  {{/if}}
+  </p>
+  
+</template>
+
+<template name='aboutpage'>
+	<p class="lead">This is an about page</p>
+</template>
+
+<template name='cvpage'>
+	<p class="lead">This is the CV page</p>
+</template>
+
+<template name='pubspage'>
+	<p class="lead">This is the pubs page</p>
+</template>

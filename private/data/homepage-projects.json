@@ -1,0 +1,85 @@
+"publications" : [
+{
+	"title" : "Getting to Know Social Television: One Team's Discoveries from Library to Living Room",
+	"year" : "2009",
+	"venue" : "Social Interactive Television: Immersive Shared Experiences and Perspectives",
+	"publisher" : "ACM Press",
+	"authors" : [
+	{
+		"firstName" : "Gunnar",
+		"lastName" : "Harboe"
+	},
+	{
+		"firstName" : "Elaine",
+		"lastName" : "Huang"
+	},
+	{
+		"firstName" : "Noel",
+		"lastName" : "Massey"
+	},
+	{
+		"firstName" : "Crysta",
+		"lastName" : "Metcalf"
+	},
+	{
+		"firstName" : "Guy",
+		"lastName" : "Romano"
+	},
+	{
+		"firstName" : "Joe",
+		"lastName" : "Tullio"
+	}
+	],
+	"editors" : [
+	{
+		"firstName" : "P",
+		"lastName" : "Cesar"
+	},
+	{
+		"firstName" : "D",
+		"lastName" : "Geerts"
+	},
+	{
+		"firstName" : "K",
+		"lastName" : "Chorianopolous"
+	}
+	],
+	"publisher" : "IGI Global"
+},
+{
+	"title" : "Examining Presence and Lightweight Messaging in a Social Television Experience",
+	"year" : "2008",
+	"venue" : "ACM Transactions on Multimedia Computing, Communications, and Applications",
+	"edition" : "4(4)",
+	"authors" : [
+	{
+		"firstName" : "Gunnar",
+		"lastName" : "Harboe"
+	},
+	{
+		"firstName" : "Crysta",
+		"lastName" : "Metcalf"
+	},
+	{
+		"firstName" : "Joe",
+		"lastName" : "Tullio"
+	},
+	{
+		"firstName" : "Noel",
+		"lastName" : "Massey"
+	},
+	{
+		"firstName" : "Guy",
+		"lastName" : "Romano"
+	},
+	{
+		"firstName" : "Elaine",
+		"lastName" : "Huang"
+	},
+	{
+		"firstName" : "Frank",
+		"lastName" : "Bentley"
+	}
+	]
+}
+]
