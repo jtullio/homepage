@@ -1,3 +1,4 @@
+
 Router.configure({
   layoutTemplate: 'layout'
   /*
@@ -23,12 +24,35 @@ Router.setTemplateNameConverter(function (str) { return str; });
 PubsList = new Mongo.Collection('publications');
 
 if (Meteor.isClient) {
+
   Template.navitems.helpers( {
     activeIfTemplateIs: function(template) {
       return (Router.current() && (template === Router.current().lookupTemplate()))
         ? 'active': '';
     }
   });
+
+  Template.navitems.rendered = function () {
+    
+    if (!this.rendered) {   
+      console.log("client startup");
+      var menu = $(".navbar").offset();
+      var origOffsetY = 253/* menu.top */;
+      console.log("menu = " + menu);
+      
+      $(window).scroll(function () {
+        if ($(window).scrollTop() >= origOffsetY) {
+            $(".navbar").addClass('navbar-fixed-top');
+            /* $('.content').addClass('menu-padding'); */
+        } else {
+            $(".navbar").removeClass('navbar-fixed-top');
+            /* $('.content').removeClass('menu-padding'); */
+        }
+      });
+
+      this.rendered = true;
+    }
+  };
 
   Template.mainpage.helpers( {
     getPubs: function () {
@@ -58,17 +82,16 @@ if (Meteor.isClient) {
       //console.log(selectedPub);
       PubsList.update(selectedPub, {$set: {selected: "yes"}});
     }
-  })
+  });
+
+  Meteor.startup(function () {
+    
+  });
 }
 
 if (Meteor.isServer) {
   Meteor.startup(function () {
     if (PubsList.find().count() === 0) {
-      /*
-      Meteor.call('insertPub', 'Joes first pub', '1997', 'BS journal of BS');
-      Meteor.call('insertPub', 'Joes second pub', '2000', 'Bogus bogosity');
-      Meteor.call('insertPub', 'Joes third pub', '2003', 'Lolwut weekly');
-      */
 
       // Read pubs from a json file:      
       var data = JSON.parse(Assets.getText('data/publications.json'));

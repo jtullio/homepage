@@ -2,3 +2,7 @@
 .selected {
 	background-color: #00DDDD;
 }
+
+.navbar-static-top {
+  margin-bottom: 19px;
+}
